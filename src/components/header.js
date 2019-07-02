@@ -4,6 +4,8 @@ import {Box, Text} from "grommet"
 import styles from "./layout.module.css"
 import { slide as Menu } from 'react-burger-menu'
 import styled from "styled-components"
+// import { Document } from 'react-pdf'
+import pdf from '../images/ResumeFinalJune.pdf';
 
 const Desktop= styled(Box)`
 @media (max-width: 768px) {
@@ -58,11 +60,12 @@ var burgerStyles = {
     fill: '#373a47'
   },
   bmItemList: {
-    color: '#b8b7ad',
-    padding: '0.8em'
+    color: '#b8b7ad'
   },
   bmItem: {
-    display: 'inline-block'
+    display: 'inline-block',
+    fontSize: '23px',
+    marginBottom: '10px'
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)',
@@ -86,14 +89,14 @@ const header = () => {
               <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
               <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
               <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
-              <a className={styles.links} activeStyle={activeLink}>resume</a>
+              <a href={pdf} className={styles.links} target="_blank">resume</a>
           </Desktop>
           <Mobile className={styles.hideDesktop}>
               <Menu styles={burgerStyles}>
                   <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
                   <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
                   <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
-                  <a className={styles.links} activeStyle={activeLink}>resume</a>
+                  <a href={pdf} className={styles.links} activeStyle={activeLink}>resume</a>
               </Menu>
         </Mobile>
       </Box>

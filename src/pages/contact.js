@@ -12,12 +12,13 @@ export default () => (
         <Header></Header>
         <Box fill className={styles.content} align="center" justify="center">
                 <Box align="start" justify="center">
-                    <Box level="1" className={styles.text+' '+styles.header}>
+                    <Box level="1" style={{marginBottom: '5vh'}}className={styles.text+' '+styles.header}>
                         <span className={styles.textUnderline}>contact</span>
                     </Box>
                     <Box level="2" className={styles.text}>
                         <span className={styles.textUnderline}>email:</span>
-                        <a href="mailto: glrangel25@gmail.com" className={styles.textColor}> glrangel25@gmail.com</a>
+                        <a href="mailto: glrangel25@gmail.com" style={{wordBreak: 'break-all'}}
+                            className={styles.textColor}> glrangel25@gmail.com</a>
                     </Box>
                     <Box className={styles.text}>
                         <span className={styles.textUnderline}>gitlab:</span>

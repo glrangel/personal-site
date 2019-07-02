@@ -18,39 +18,40 @@ z-index: 1;
 -o-transition: background-color 1s;
 transition: background-color 1s;
 `;
-const MyLink = styled(Link)`
-text-decoration: none;
-color: #443e3c;
-font-size: 18px;
-width: 100%;
-padding: 10px;`
+const myLink = {
+    textDecoration: 'none',
+    color: '#443e3c',
+    fontSize: '18px',
+    width: '100%',
+    padding: '10px'
+}
 
 export default () => (
-    <Box style={{display: '-webkit-inline-box'}} direction="column" align="center" justify="center">
-        <MyLink to="/portfolio/personal-site">
+    <Box style={{display: 'inline-table'}} direction="column" align="center" justify="center">
+        <Link style={myLink} to="/">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">Personal Website</Text>
                 <Text>Made using GatsbyJS</Text>
             </MyBox>
-        </MyLink>
-        <MyLink  to="/portfolio/bitsmo-exchange">
+        </Link>
+        <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
                 <Text>A cryptocurrency exchange made using React</Text>
             </MyBox>
-        </MyLink>
-        <MyLink to="/portfolio/skyrouter">
+        </a>
+        <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">SkyRouter</Text>
                 <Text>Fleet tracking portal made using Ember</Text>
             </MyBox>
-        </MyLink>
-        <MyLink  to="/portfolio/skyrouter">
+        </a>
+        <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">CRUD Authors</Text>
                 <Text>Fleet tracking portal made using Ember</Text>
             </MyBox>
-        </MyLink>
+        </a>
 
     </Box>
 
