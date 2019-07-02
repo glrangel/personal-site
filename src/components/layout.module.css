@@ -1,0 +1,52 @@
+.layout{
+    height: 100vh;
+    /* flex-grow: 1; */
+        /* background-color: rgb(238, 236, 235); */
+        background-image: url('../images/joshuatree.jpg');
+        background-size: cover;
+        background-position: 50% 25%;
+}
+.margin{
+}
+.header{
+    height: 70px;
+    background-color: #eeeceb;
+    box-shadow: 3px 3px 3px 0 black;    /* position: fixed; */
+    z-index: 10;
+    position: fixed;
+}
+.links{
+    text-decoration: none;
+    color: #443e3c;
+    font-size: 18px;
+    width: 100%;
+}
+.portfolioItem{
+    /* height: 1em; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2em;
+    background-color: #eeeceb;
+    box-shadow: 0 8px 6px -8px black;    /* position: fixed; */
+    z-index: 1;
+
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+.portfolioItem:hover{
+    background-color: orange;
+    cursor:pointer;
+}
+.hideDesktop{
+    display: none;
+}
+  @media (max-width: 768px) {
+  .hideMobile {
+    display: none;
+  }
+  .hideDesktop{
+      display: inline;
+  }
+}
