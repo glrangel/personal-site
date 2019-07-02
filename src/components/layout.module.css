@@ -5,6 +5,7 @@
     background-position: 50% 25%;
 }
 .margin{
+    margin-top: 15vh;
 }
 .header{
     height: 70px !important;
@@ -38,13 +39,13 @@
     cursor:pointer;
 }
 .hideDesktop{
-    display: none;
+    display: none !important;
 }
   @media (max-width: 768px) {
   .hideMobile {
-    display: none;
+    display: none !important;
   }
   .hideDesktop{
-      display: inline;
+      display: inline !important;
   }
 }

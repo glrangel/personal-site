@@ -11,8 +11,8 @@ import styles from "./index.module.css"
 export default (props) => (
     <Layout>
         <Header></Header>
-        <Box fill className={styles.content} align="center" justify="start">
-                <Box align="center" justify="center">
+        <Box fill className={styles.content}  align="center" justify="start">
+                <Box style={{marginTop: '10vh'}}align="center" justify="center">
                     <Heading className={styles.text + ' '+ styles.textUnderline + ' ' + styles.marginTop}>portfolio</Heading>
                 </Box>
                 <Portfolio></Portfolio>

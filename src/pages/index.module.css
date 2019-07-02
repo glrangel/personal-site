@@ -16,21 +16,6 @@
     text-align: center;
     width: 100%;
 }
-@media (max-width: 560px){
-    .text{
-        font-size: 35px;
-    }
-}
-@media (max-width: 480px){
-    .text{
-        font-size: 20px;
-    }
-}
-@media (max-width: 605px){
-    .lineHeight{
-        line-height: normal !important;
-    }
-}
 .header{
     margin-bottom: 50px;
 }

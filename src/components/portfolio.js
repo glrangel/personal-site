@@ -18,33 +18,39 @@ z-index: 1;
 -o-transition: background-color 1s;
 transition: background-color 1s;
 `;
+const MyLink = styled(Link)`
+text-decoration: none;
+color: #443e3c;
+font-size: 18px;
+width: 100%;
+padding: 10px;`
 
 export default () => (
-    <Box className={styles.margin} direction="column" align="center" justify="center">
-        <Link className={styles.links} to="/portfolio/personal-site">
+    <Box style={{display: '-webkit-inline-box'}} direction="column" align="center" justify="center">
+        <MyLink to="/portfolio/personal-site">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">Personal Website</Text>
                 <Text>Made using GatsbyJS</Text>
             </MyBox>
-        </Link>
-        <Link className={styles.links} to="/portfolio/bitsmo-exchange">
+        </MyLink>
+        <MyLink  to="/portfolio/bitsmo-exchange">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
                 <Text>A cryptocurrency exchange made using React</Text>
             </MyBox>
-        </Link>
-        <Link className={styles.links} to="/portfolio/skyrouter">
+        </MyLink>
+        <MyLink to="/portfolio/skyrouter">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">SkyRouter</Text>
                 <Text>Fleet tracking portal made using Ember</Text>
             </MyBox>
-        </Link>
-        <Link className={styles.links} to="/portfolio/skyrouter">
+        </MyLink>
+        <MyLink  to="/portfolio/skyrouter">
             <MyBox className={styles.hover} align="center" justify="center" fill>
                 <Text weight="bold" size="xlarge">CRUD Authors</Text>
                 <Text>Fleet tracking portal made using Ember</Text>
             </MyBox>
-        </Link>
+        </MyLink>
 
     </Box>
 

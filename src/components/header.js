@@ -11,7 +11,8 @@ const Desktop= styled(Box)`
 `;
 const Mobile= styled(Box)`
 @media (max-width: 768px) {
-    display: none;
+    .tester{
+    display: none;}
 
 }
 `;
@@ -65,7 +66,9 @@ var burgerStyles = {
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)',
-    marginLeft: '-50%'
+    marginLeft: '-50%',
+    height: '110%',
+    marginTop: '-10%'
   }
 }
 

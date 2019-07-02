@@ -13,7 +13,7 @@ color:whitesmoke;
 font-size: 40px;
 text-align: center;
 width: 100%;
-line-height: 3px;
+line-height: 1;
 `;
 const MyText = styled(Text)`
 z-index: 1;
@@ -21,7 +21,7 @@ color:whitesmoke;
 font-size: 40px;
 text-align: center;
 width: 100%;
-line-height: 3px;
+line-height: 1;
 `;
 
 
@@ -32,7 +32,7 @@ export default (props) => (
         <Header></Header>
         <Box fill className={styles.content} align="center" justify="center">
                 <Box align="start" justify="center">
-                    <MyHeading level="1">Gabriel Rangel</MyHeading>
+                    <MyText size="large" style={{fontWeight: 'bold'}}>Gabriel Rangel</MyText>
                     <MyText size="large" style={{color: 'orange'}} >Front End Web Developer</MyText>
                 </Box>
         </Box>
