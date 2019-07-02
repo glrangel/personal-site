@@ -12,7 +12,6 @@ export default () => (
     <Layout>
         <Header></Header>
         <Box fill className={styles.content} align="center" justify="center">
-            <PageTransition>
                 <Box align="start" justify="center">
                     <Box level="1" className={styles.text+' '+styles.header}>
                         <span className={styles.textUnderline}>contact</span>
@@ -26,7 +25,6 @@ export default () => (
                         <a href="https://gitlab.com/glrangel" target="_blank" className={styles.textColor}> glrangel</a>
                     </Box>
                 </Box>
-            </PageTransition>
         </Box>
     </Layout>
 )

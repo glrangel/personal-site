@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "personal-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "My personal website built using GatsbyJS",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -9,13 +9,12 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.3.25",
     "gatsby-image": "^2.0.40",
+    "gatsby-plugin-layout": "^1.1.0",
     "gatsby-plugin-page-transitions": "^1.0.8",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-plugin-typescript": "^2.0.12",
@@ -27,6 +26,7 @@
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
+    "react-transition-group": "^4.2.0",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
@@ -35,10 +35,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/glrangel/personal-site"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
-
 }
