@@ -3,6 +3,20 @@ import { Link } from "gatsby"
 import {Box, Text} from "grommet"
 import styles from "./layout.module.css"
 import { slide as Menu } from 'react-burger-menu'
+import styled from "styled-components"
+
+const Desktop= styled(Box)`
+@media (max-width: 768px) {
+}
+`;
+const Mobile= styled(Box)`
+@media (max-width: 768px) {
+    display: none;
+
+}
+`;
+
+
 
 var burgerStyles = {
   bmBurgerButton: {
@@ -65,20 +79,20 @@ const header = () => {
 
 // <Box>
     <Box className={styles.header} align="center" justify="center" fill>
-          <Box className={styles.hideMobile} gap="xlarge" direction="row" align="center" >
+          <Desktop className={styles.hideMobile} gap="xlarge" direction="row" align="center" >
               <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
               <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
               <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
               <a className={styles.links} activeStyle={activeLink}>resume</a>
-          </Box>
-          <Box className={styles.hideDesktop}>
+          </Desktop>
+          <Mobile className={styles.hideDesktop}>
               <Menu styles={burgerStyles}>
                   <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
                   <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
                   <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
                   <a className={styles.links} activeStyle={activeLink}>resume</a>
               </Menu>
-        </Box>
+        </Mobile>
       </Box>
     //   <Box className={styles.hideDesktop}>
     //       <Menu styles={burgerStyles}>

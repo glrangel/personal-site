@@ -1,14 +1,13 @@
 .layout{
     height: 100vh;
-
-        background-image: url('../images/joshuatree.jpg');
-        background-size: cover;
-        background-position: 50% 25%;
+    background-image: url('../images/joshuatree.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
 }
 .margin{
 }
 .header{
-    height: 70px;
+    height: 70px !important;
     background-color: #eeeceb;
     box-shadow: 3px 3px 3px 0 black;    /* position: fixed; */
     z-index: 10;
@@ -34,7 +33,7 @@
     -o-transition: background-color 1s;
     transition: background-color 1s;
 }
-.portfolioItem:hover{
+.hover:hover{
     background-color: orange;
     cursor:pointer;
 }

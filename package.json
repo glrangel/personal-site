@@ -13,13 +13,11 @@
   },
   "dependencies": {
     "gatsby": "^2.3.25",
-    "gatsby-image": "^2.0.40",
     "gatsby-plugin-layout": "^1.1.0",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-plugin-typescript": "^2.0.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.0.32",
-    "gatsby-transformer-sharp": "^2.1.18",
     "grommet": "^2.6.6",
     "polished": "^3.2.0",
     "react": "^16.8.6",
