@@ -15,7 +15,6 @@
     "gatsby": "^2.3.25",
     "gatsby-image": "^2.0.40",
     "gatsby-plugin-layout": "^1.1.0",
-    "gatsby-plugin-page-transitions": "^1.0.8",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-plugin-typescript": "^2.0.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",

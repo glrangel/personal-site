@@ -1,6 +1,5 @@
 import React from "react"
 import {Box, Text, Heading} from "grommet"
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 
 import Layout from "../components/layout"
