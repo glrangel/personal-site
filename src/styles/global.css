@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+@font-face {
+  font-family: cutiveMono;
+  src: url('../fonts/CutiveMono-Regular.ttf');
+}
 html{
-    font-family: 'Cutive Mono';
+    font-family: cutiveMono;
     padding:0;
     margin:0;
     letter-spacing: 2px;

@@ -12,6 +12,8 @@ padding: 2em;
 background-color: #eeeceb;
 box-shadow: 0 8px 6px -8px black;    /* position: fixed; */
 z-index: 1;
+text-align: center;
+word-break: break-word;
 
 -webkit-transition: background-color 1s;
 -moz-transition: background-color 1s;
@@ -22,34 +24,35 @@ const myLink = {
     textDecoration: 'none',
     color: '#443e3c',
     fontSize: '18px',
-    width: '100%',
-    padding: '10px'
+    padding: '10px',
+    display: 'flex',
+    justifyContent: 'center'
 }
 
 export default () => (
     <Box style={{display: 'inline-table'}} direction="column" align="center" justify="center">
         <Link style={myLink} to="/">
-            <MyBox className={styles.hover} align="center" justify="center" fill>
+            <MyBox className={styles.hover} align="center" justify="center" width="90%">
                 <Text weight="bold" size="xlarge">Personal Website</Text>
                 <Text>Made using GatsbyJS</Text>
             </MyBox>
         </Link>
         <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" fill>
+            <MyBox className={styles.hover} align="center" justify="center" width="90%">
                 <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
                 <Text>A cryptocurrency exchange made using React</Text>
             </MyBox>
         </a>
         <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" fill>
+            <MyBox className={styles.hover} align="center" justify="center" width="90%">
                 <Text weight="bold" size="xlarge">SkyRouter</Text>
                 <Text>Fleet tracking portal made using Ember</Text>
             </MyBox>
         </a>
         <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" fill>
+            <MyBox className={styles.hover} align="center" justify="center" width="90%">
                 <Text weight="bold" size="xlarge">CRUD Authors</Text>
-                <Text>Fleet tracking portal made using Ember</Text>
+                <Text align="center">Create/delete/update authors and their books</Text>
             </MyBox>
         </a>
 

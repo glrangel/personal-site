@@ -16,6 +16,7 @@
 }
 .links{
     text-decoration: none;
+    outline: none;
     color: #443e3c;
     font-size: 18px;
     width: 100%;

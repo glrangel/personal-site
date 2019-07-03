@@ -38,24 +38,3 @@ export default (props) => (
         </Box>
     </Layout>
 )
-// const test = {
-//         zIndex: '1',
-//         color: 'whitesmoke',
-//         fontSize: '40px',
-//         textAlign: 'center',
-//         width: '100%',
-//         lineHeight: '3px'
-//
-// }
-//
-// export default (props) => (
-//     <Layout>
-//         <Header></Header>
-//         <Box fill className={styles.content} align="center" justify="center">
-//                 <Box align="start" justify="center">
-//                     <Heading level="1" style={test}>Gabriel Rangel</Heading>
-//                     <Text size="xxlarge" style={test} color="orange !important">Front End Web Developer</Text>
-//                 </Box>
-//         </Box>
-//     </Layout>
-// )

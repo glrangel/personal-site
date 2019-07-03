@@ -7,18 +7,7 @@ import styled from "styled-components"
 // import { Document } from 'react-pdf'
 import pdf from '../images/ResumeFinalJune.pdf';
 
-const Desktop= styled(Box)`
-@media (max-width: 768px) {
-}
-`;
-const Mobile= styled(Box)`
-@media (max-width: 768px) {
-    .tester{
-    display: none;}
-
-}
-`;
-
+Box
 
 
 var burgerStyles = {
@@ -82,34 +71,22 @@ const activeLink = {
 const header = () => {
     // 768 pixels enable burger menu
       return(
-
-// <Box>
     <Box className={styles.header} align="center" justify="center" fill>
-          <Desktop className={styles.hideMobile} gap="xlarge" direction="row" align="center" >
+          <Box className={styles.hideMobile} gap="xlarge" direction="row" align="center" >
               <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
               <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
               <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
               <a href={pdf} className={styles.links} target="_blank">resume</a>
-          </Desktop>
-          <Mobile className={styles.hideDesktop}>
+          </Box>
+          <Box className={styles.hideDesktop}>
               <Menu styles={burgerStyles}>
                   <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
                   <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
                   <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
                   <a href={pdf} className={styles.links} activeStyle={activeLink}>resume</a>
               </Menu>
-        </Mobile>
+        </Box>
       </Box>
-    //   <Box className={styles.hideDesktop}>
-    //       <Menu styles={burgerStyles}>
-    //             <Link className={styles.links} activeStyle={activeLink} to="/">home</Link>
-    //             <Link className={styles.links} activeStyle={activeLink} partiallyActive={true} to="portfolio">portfolio</Link>
-    //             <Link className={styles.links} activeStyle={activeLink} to="contact">contact</Link>
-    //             <a className={styles.links} activeStyle={activeLink}>resume</a>
-    //         </Menu>
-    // </Box>
-// </Box>
-
     );
 }
 
