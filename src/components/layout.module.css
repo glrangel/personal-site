@@ -50,6 +50,10 @@
       display: inline !important;
   }
 }
+.mobile{
+    flex-direction: row;
+    width: 100%;
+}
 @media screen and (max-width: 800px) {
     .mobile{
         flex-direction: column;

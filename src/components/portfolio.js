@@ -34,7 +34,7 @@ const myLink = {
 
 export default () => (
     <Box style={{display: 'flex', flexWrap: 'wrap'}} direction="row" align="center" justify="center" width="80%">
-        <Box className={styles.mobile} direction="row" width="100%">
+        <Box className={styles.mobile}>
             <Link style={myLink} to="/">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Personal Website</Text>
@@ -48,7 +48,7 @@ export default () => (
                 </MyBox>
             </a>
         </Box>
-        <Box className={styles.mobile} direction="row" width="100%">
+        <Box className={styles.mobile} >
             <a style={myLink} href="https://bitsmo.io" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
@@ -62,7 +62,7 @@ export default () => (
                 </MyBox>
             </a>
         </Box>
-        <Box className={styles.mobile} direction="row" width="100%">
+        <Box className={styles.mobile} >
             <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center">
                     <Text weight="bold" size="xlarge">CRUD Authors</Text>
@@ -76,7 +76,7 @@ export default () => (
                 </MyBox>
             </a>
         </Box>
-        <Box className={styles.mobile} direction="row" width="100%">
+        <Box className={styles.mobile} >
             <a style={myLink} href="" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
