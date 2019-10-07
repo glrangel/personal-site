@@ -27,7 +27,6 @@ const myLink = {
     fontSize: '18px',
     padding: '10px',
     justifyContent: 'center',
-    width: '100%',
     flex: '1',
     display: 'flex'
 }
