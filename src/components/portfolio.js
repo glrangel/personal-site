@@ -14,6 +14,7 @@ box-shadow: 0 8px 6px -8px black;    /* position: fixed; */
 z-index: 1;
 text-align: center;
 word-break: break-word;
+width: 100%;
 
 -webkit-transition: background-color 1s;
 -moz-transition: background-color 1s;
@@ -25,37 +26,64 @@ const myLink = {
     color: '#443e3c',
     fontSize: '18px',
     padding: '10px',
-    display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    width: '100%',
+    flex: '1',
+    display: 'flex'
 }
 
 export default () => (
-    <Box style={{display: 'inline-table'}} direction="column" align="center" justify="center">
-        <Link style={myLink} to="/">
-            <MyBox className={styles.hover} align="center" justify="center" width="90%">
-                <Text weight="bold" size="xlarge">Personal Website</Text>
-                <Text>Made using GatsbyJS</Text>
-            </MyBox>
-        </Link>
-        <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" width="90%">
-                <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
-                <Text>A cryptocurrency exchange made using React</Text>
-            </MyBox>
-        </a>
-        <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" width="90%">
-                <Text weight="bold" size="xlarge">SkyRouter</Text>
-                <Text>Fleet tracking portal made using Ember</Text>
-            </MyBox>
-        </a>
-        <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
-            <MyBox className={styles.hover} align="center" justify="center" width="90%">
-                <Text weight="bold" size="xlarge">CRUD Authors</Text>
-                <Text align="center">Create/delete/update authors and their books</Text>
-            </MyBox>
-        </a>
-
+    <Box style={{display: 'flex', flexWrap: 'wrap'}} direction="row" align="center" justify="center" width="80%">
+        <Box className={styles.mobile} direction="row" width="100%">
+            <Link style={myLink} to="/">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Personal Website</Text>
+                    <Text>Made using GatsbyJS</Text>
+                </MyBox>
+            </Link>
+            <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
+                    <Text>A cryptocurrency exchange made using React</Text>
+                </MyBox>
+            </a>
+        </Box>
+        <Box className={styles.mobile} direction="row" width="100%">
+            <a style={myLink} href="https://bitsmo.io" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
+                    <Text>Cryptocurrency exhcange information site</Text>
+                </MyBox>
+            </a>
+            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">SkyRouter</Text>
+                    <Text>Fleet tracking portal made using Ember</Text>
+                </MyBox>
+            </a>
+        </Box>
+        <Box className={styles.mobile} direction="row" width="100%">
+            <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center">
+                    <Text weight="bold" size="xlarge">CRUD Authors</Text>
+                    <Text align="center">Create/delete/update authors and their books</Text>
+                </MyBox>
+            </a>
+            <a style={myLink} href="https://affectionate-raman-3adf89.netlify.com/" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Witches & Science</Text>
+                    <Text align="center">Interactive landing page made using HTML/CSS/JavsScript</Text>
+                </MyBox>
+            </a>
+        </Box>
+        <Box className={styles.mobile} direction="row" width="100%">
+            <a style={myLink} href="" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
+                    <Text align="center">Fully responsive HTML/CSS page</Text>
+                </MyBox>
+            </a>
+        </Box>
     </Box>
 
 

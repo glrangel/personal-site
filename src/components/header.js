@@ -7,7 +7,6 @@ import styled from "styled-components"
 // import { Document } from 'react-pdf'
 import pdf from '../images/ResumeFinalJune.pdf';
 
-Box
 
 
 var burgerStyles = {

@@ -50,3 +50,8 @@
       display: inline !important;
   }
 }
+@media screen and (max-width: 800px) {
+    .mobile{
+        flex-direction: column;
+    }
+}
