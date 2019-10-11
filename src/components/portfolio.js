@@ -51,7 +51,7 @@ export default () => (
             <a style={myLink} href="https://bitsmo.io" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
-                    <Text>Cryptocurrency exhcange information site</Text>
+                    <Text>Cryptocurrency exchange informational site</Text>
                 </MyBox>
             </a>
             <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
