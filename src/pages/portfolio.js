@@ -12,8 +12,8 @@ export default (props) => (
     <Layout>
         <Header></Header>
         <Box fill className={styles.content}  align="center" justify="start">
-                <Box style={{marginTop: '10vh'}}align="center" justify="center">
-                    <Heading className={styles.text + ' '+ styles.textUnderline + ' ' + styles.marginTop}>portfolio</Heading>
+                <Box className={styles.mobileHeading} align="center" justify="center">
+                    <Heading className={styles.text + ' '+ styles.textUnderline}>portfolio</Heading>
                 </Box>
                 <Portfolio></Portfolio>
         </Box>

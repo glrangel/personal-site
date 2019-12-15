@@ -32,7 +32,7 @@ const myLink = {
 }
 
 export default () => (
-    <Box style={{display: 'flex', flexWrap: 'wrap',paddingTop: '20px'}} direction="row" align="center" justify="center" width="80%">
+    <Box style={{display: 'flex', flexWrap: 'wrap', maxWidth: '1200px'}} direction="row" align="center" justify="center" width="80%">
         <Box className={styles.mobile}>
             <Link style={myLink} to="/">
                 <MyBox className={styles.hover} align="center" justify="center" >
