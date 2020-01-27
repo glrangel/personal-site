@@ -49,7 +49,7 @@ class App extends Component{
           <Box fill className={styles.content} align="center" justify="center">
                   <Box align="start" justify="center">
                       <MyText size="large" style={{fontWeight: 'bold'}}>Gabriel Rangel</MyText>
-                      <MyText size="large" style={{color: 'orange'}} >Front End Web Developer</MyText>
+                      <MyText size="large" style={{color: 'orange'}} >full stack developer</MyText>
                   </Box>
           </Box>
       </Layout>

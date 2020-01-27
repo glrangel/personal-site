@@ -26,8 +26,8 @@ export default () => (
                             className={styles.textColor}> glrangel25@gmail.com</a>
                     </Box>
                     <Box className={styles.text}>
-                        <span className={styles.textUnderline}>gitlab:</span>
-                        <a href="https://gitlab.com/glrangel" target="_blank" className={styles.textColor}> glrangel</a>
+                        <span className={styles.textUnderline}>github:</span>
+                        <a href="https://github.com/glrangel" target="_blank" className={styles.textColor}> glrangel</a>
                     </Box>
                 </Box>
         </Box>

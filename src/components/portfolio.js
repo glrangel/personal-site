@@ -48,10 +48,10 @@ export default () => (
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://bitsmo.io" target="_blank">
+            <a style={myLink} href="https://postmessage.now.sh" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
-                    <Text>Cryptocurrency exchange informational site</Text>
+                    <Text weight="bold" size="xlarge">Fullstack Message Board</Text>
+                    <Text align="center">A message board built to demonstrate the full stack (client, server, database).</Text>
                 </MyBox>
             </a>
             <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
@@ -68,7 +68,7 @@ export default () => (
                     <Text align="center">Create/delete/update authors and their books</Text>
                 </MyBox>
             </a>
-            <a style={myLink} href="https://affectionate-raman-3adf89.netlify.com/" target="_blank">
+            <a style={myLink} href="https://www.witchesandscience.com/" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Witches & Science</Text>
                     <Text align="center">Interactive landing page made using HTML/CSS/JavsScript</Text>
@@ -79,7 +79,13 @@ export default () => (
             <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.com/" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
-                    <Text align="center">Fully responsive HTML/CSS page</Text>
+                    <Text align="center">Fully responsive pure HTML/CSS page</Text>
+                </MyBox>
+            </a>
+            <a style={myLink} href="https://bitsmo.io" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
+                    <Text>Cryptocurrency exchange informational site</Text>
                 </MyBox>
             </a>
         </Box>

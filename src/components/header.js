@@ -5,7 +5,7 @@ import styles from "./layout.module.css"
 import { slide as Menu } from 'react-burger-menu'
 import styled from "styled-components"
 // import { Document } from 'react-pdf'
-import pdf from '../images/ResumeFinalJune.pdf';
+import pdf from '../images/Resume.pdf';
 
 
 
