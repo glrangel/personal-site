@@ -54,18 +54,18 @@ export default () => (
                     <Text align="center">A message board built to demonstrate the full stack (client, server, database).</Text>
                 </MyBox>
             </a>
-            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
+            <a style={myLink} href="https://la-metro-predictions.now.sh" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">SkyRouter</Text>
-                    <Text>Fleet tracking portal made using Ember</Text>
+                    <Text weight="bold" size="xlarge">LA Metro Predictions</Text>
+                    <Text>React app that displays arrival predictions for the LA Metro Rail system.</Text>
                 </MyBox>
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center">
-                    <Text weight="bold" size="xlarge">CRUD Authors</Text>
-                    <Text align="center">Create/delete/update authors and their books</Text>
+            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">SkyRouter</Text>
+                    <Text>Fleet tracking portal made using Ember</Text>
                 </MyBox>
             </a>
             <a style={myLink} href="https://www.witchesandscience.com/" target="_blank">
@@ -86,6 +86,14 @@ export default () => (
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
                     <Text>Cryptocurrency exchange informational site</Text>
+                </MyBox>
+            </a>
+        </Box>
+        <Box className={styles.mobile} >
+            <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center">
+                    <Text weight="bold" size="xlarge">CRUD Authors</Text>
+                    <Text align="center">Create/delete/update authors and their books</Text>
                 </MyBox>
             </a>
         </Box>
