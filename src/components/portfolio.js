@@ -84,7 +84,7 @@ export default () => (
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://objective-murdock-47b204.netlify.app/home" target="_blank">
+            <a style={myLink} href="https://objective-murdock-47b204.netlify.app" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Demo 3D WIP</Text>
                     <Text>Demo 3D website made using react three</Text>
