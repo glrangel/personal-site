@@ -40,32 +40,26 @@ export default () => (
                     <Text>Made using GatsbyJS</Text>
                 </MyBox>
             </Link>
-            <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
-                    <Text>A cryptocurrency exchange made using React</Text>
-                </MyBox>
-            </a>
-        </Box>
-        <Box className={styles.mobile} >
             <a style={myLink} href="https://postmessage.now.sh" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Fullstack Message Board</Text>
                     <Text align="center">A message board built to demonstrate the full stack (client, server, database).</Text>
                 </MyBox>
             </a>
+
+        </Box>
+        <Box className={styles.mobile} >
             <a style={myLink} href="https://la-metro-predictions.now.sh" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">LA Metro Predictions</Text>
                     <Text>React app that displays arrival predictions for the LA Metro Rail system.</Text>
+                    <Text size="small" weight="bold" style={{fontStyle: 'italic'}}> Updating to work with new api</Text>
                 </MyBox>
             </a>
-        </Box>
-        <Box className={styles.mobile} >
-            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
+            <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.com/" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">SkyRouter</Text>
-                    <Text>Fleet tracking portal made using Ember</Text>
+                    <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
+                    <Text align="center">Fully responsive pure HTML/CSS page</Text>
                 </MyBox>
             </a>
             <a style={myLink} href="https://www.witchesandscience.com/" target="_blank">
@@ -76,24 +70,24 @@ export default () => (
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.com/" target="_blank">
+            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
-                    <Text align="center">Fully responsive pure HTML/CSS page</Text>
+                    <Text weight="bold" size="xlarge">SkyRouter</Text>
+                    <Text>Fleet tracking portal made using Ember</Text>
                 </MyBox>
             </a>
-            <a style={myLink} href="https://bitsmo.io" target="_blank">
+            <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
-                    <Text>Cryptocurrency exchange informational site</Text>
+                    <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
+                    <Text>A cryptocurrency exchange made using React</Text>
                 </MyBox>
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://crud-authors.herokuapp.com/authors" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center">
-                    <Text weight="bold" size="xlarge">CRUD Authors</Text>
-                    <Text align="center">Create/delete/update authors and their books</Text>
+            <a style={myLink} href="https://bitsmo.io" target="_blank">
+                <MyBox className={styles.hover} align="center" justify="center" >
+                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
+                    <Text>Cryptocurrency exchange informational site</Text>
                 </MyBox>
             </a>
         </Box>
