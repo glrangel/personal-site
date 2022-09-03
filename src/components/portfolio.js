@@ -84,10 +84,10 @@ export default () => (
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://bitsmo.io" target="_blank">
+            <a style={myLink} href="https://objective-murdock-47b204.netlify.app/home" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Bitsmo Wordpress Site</Text>
-                    <Text>Cryptocurrency exchange informational site</Text>
+                    <Text weight="bold" size="xlarge">Demo 3D WIP</Text>
+                    <Text>Demo 3D website made using react three</Text>
                 </MyBox>
             </a>
         </Box>
