@@ -33,29 +33,15 @@ const myLink = {
 
 export default () => (
     <Box style={{display: 'flex', flexWrap: 'wrap', maxWidth: '1200px'}} direction="row" align="center" justify="center" width="80%">
-        <Box className={styles.mobile}>
-            <Link style={myLink} to="/">
+        <Box className={styles.mobile} >
+            <a style={myLink} href="https://objective-murdock-47b204.netlify.app" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Personal Website</Text>
-                    <Text>Made using GatsbyJS</Text>
-                </MyBox>
-            </Link>
-            <a style={myLink} href="https://postmessage.now.sh" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Fullstack Message Board</Text>
-                    <Text align="center">A message board built to demonstrate the full stack (client, server, database).</Text>
+                    <Text weight="bold" size="xlarge">Demo 3D WIP</Text>
+                    <Text>Demo 3D website made using react three</Text>
                 </MyBox>
             </a>
-
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://la-metro-predictions.now.sh" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">LA Metro Predictions</Text>
-                    <Text>React app that displays arrival predictions for the LA Metro Rail system.</Text>
-                    <Text size="small" weight="bold" style={{fontStyle: 'italic'}}> Updating to work with new api</Text>
-                </MyBox>
-            </a>
             <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.com/" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
@@ -68,28 +54,12 @@ export default () => (
                     <Text align="center">Interactive landing page made using HTML/CSS/JavsScript</Text>
                 </MyBox>
             </a>
-        </Box>
-        <Box className={styles.mobile} >
-            <a style={myLink} href="https://skyrouter.com/skyrouter3/public/login" target="_blank">
+            <Link style={myLink} to="/">
                 <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">SkyRouter</Text>
-                    <Text>Fleet tracking portal made using Ember</Text>
+                    <Text weight="bold" size="xlarge">Personal Website</Text>
+                    <Text>Made using GatsbyJS</Text>
                 </MyBox>
-            </a>
-            <a style={myLink} href="https://trade.bitsmo.io" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Bitsmo Cryptocurrency Exchange</Text>
-                    <Text>A cryptocurrency exchange made using React</Text>
-                </MyBox>
-            </a>
-        </Box>
-        <Box className={styles.mobile} >
-            <a style={myLink} href="https://objective-murdock-47b204.netlify.app" target="_blank">
-                <MyBox className={styles.hover} align="center" justify="center" >
-                    <Text weight="bold" size="xlarge">Demo 3D WIP</Text>
-                    <Text>Demo 3D website made using react three</Text>
-                </MyBox>
-            </a>
+            </Link>
         </Box>
     </Box>
 
