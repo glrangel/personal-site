@@ -42,7 +42,7 @@ export default () => (
             </a>
         </Box>
         <Box className={styles.mobile} >
-            <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.com/" target="_blank">
+            <a style={myLink} href="https://competent-dijkstra-7a8fca.netlify.app/" target="_blank">
                 <MyBox className={styles.hover} align="center" justify="center" >
                     <Text weight="bold" size="xlarge">Responsive Coding Challenge</Text>
                     <Text align="center">Fully responsive pure HTML/CSS page</Text>
